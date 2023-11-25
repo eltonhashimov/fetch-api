@@ -1,0 +1,22 @@
+{
+    "products":[
+        {
+            "id":"2safasfagsdgsd",
+            "name":"HP Pavilion",
+            "price":2000,
+            "category":"Notebook"
+        },
+        {
+            "id":"2safasfagsdgsd",
+            "name":"Mac M1",
+            "price":2000,
+            "category":"Notebook"
+        },
+        {
+            "id":"2safasfagsdgsd",
+            "name":"Mac M2",
+            "price":2000,
+            "category":"Notebook"
+        }
+    ]
+}

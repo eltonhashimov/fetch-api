@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="lip/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+
+  <div id="my-modal" onclick="closeModal()">
+
+    <div class="modal-middle col-lg-7 col-10">
+      <div onclick="closeModal()" class="close-modal text-danger">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <div class="modal-img">
+              <img class="img-fluid" src="" alt="">
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="modal-product-content">
+              <h4></h4>
+              <p class="modal-product-desc"></p>
+              <p class="modal-price"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="navbar  bg-primary text-white">
+    <div class="container">
+      <nav class="w-100">
+        <div class="d-flex justify-content-between">
+          <div class="col-lg-2">
+            <div class="logo">
+              Logo
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-center">
+            <div class="change-mode d-flex">
+              <div class="dark-mode me-3 d-none">
+                <i class="fa-solid fa-moon"></i>
+              </div>
+              <div class="light-mode me-3">
+                <i class="fa-regular fa-moon"></i>
+              </div>
+            </div>
+            <div class="search-area input-group">
+              <input class="form-control" type="text" placeholder="search">
+              <button class="input-group-text">search</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="min-vh-100">
+    <!-- Slider Start -->
+    <section class="top-slider">
+      <div class="container">
+        <div class="slider-middle p-5 text-white bg-secondary">
+          <h3>Slider Lorem ipsum dolor sit.</h3>
+        </div>
+      </div>
+    </section>
+    <!-- / Slider -->
+
+    <div id="category-area" class="my-5">
+      <div class="container">
+        <div class="d-flex flex-wrap">
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-12">
+            <div class="featured-header m-auto py-3">
+              <h4>Featured Products</h4>
+            </div>
+          </div>
+
+          <div class="product-list">
+            <div class="col-lg-3">
+              <div class="product-item d-none">
+                <img style="height: 250px; object-fit: contain;" class="pro-img img-fluid text-center" src="" alt="">
+                <h5 class="title">Basliq 1</h5>
+                <p class="price">2001</p>
+                <p class="description"></p>
+              </div>
+            </div>
+            <div class="row">
+
+
+            </div>
+            <div class="text-center load-more">
+              <button class="btn btn-outline-success my-5">Load More</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- / Featured Products -->
+  </main>
+
+  <footer class="bg-dark text-white">
+    footer
+  </footer>
+
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
